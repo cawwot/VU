@@ -16,7 +16,7 @@ const config = {
         loader: 'vue-loader',
         options: {
           scc: 'scc-leader',
-          'scss': 'css-loader|sass-loader'
+          'scss': 'css-loader|sass-loader',
         }
       },
       {
