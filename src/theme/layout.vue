@@ -10,14 +10,14 @@
 </div>
 </template>
 <script>
-import appheader from './appheader.vue'
-import appfooter from './appfooter.vue'
+import appheader from './appheader.vue';
+import appfooter from './appfooter.vue';
 export default {
   components: {
     'app-header': appheader,
-    'app-footer': appfooter
-  }
-}
+    'app-footer': appfooter,
+  },
+};
 </script>
 <style lang="scss">
 $primary: #287ab1;

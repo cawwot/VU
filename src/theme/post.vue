@@ -11,8 +11,8 @@
 </template>
 <script>
 export default {
-  props: ['link']
-}
+  props: ['link'],
+};
 </script>
 <style scoped>
   .card{
