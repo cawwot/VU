@@ -3,7 +3,7 @@
   <app-header></app-header>
 <section class="main-section section">
 <div class="container content">
-<category></category>
+  <router-view></router-view>
 </div>
 </section>
 <app-footer></app-footer>
@@ -12,12 +12,10 @@
 <script>
 import appheader from './appheader.vue'
 import appfooter from './appfooter.vue'
-import category from './category.vue'
 export default {
   components: {
     'app-header': appheader,
-    'app-footer': appfooter,
-    'category': category
+    'app-footer': appfooter
   }
 }
 </script>
